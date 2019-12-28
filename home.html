@@ -7,6 +7,11 @@
 		<link rel="icon" href="logo2.jpg">
 		
 		<style>
+		a {
+			text-decoration: none; 
+			color:black;
+			font-weight: bolder;
+		}
 		h1{
 			color: rgb(250, 102, 102);
 		}
@@ -20,10 +25,16 @@
 			background-color: rgb(201,222,228);
 		}
 		.listAlign{
-			text-align: center;
-			list-style-position: inside;
+			/*text-align: center;*/
+			list-style-position: outside;
+			font-size: 20px;
+			font-weight: bolder;
+			position:relative;
+			left:37%;
+			margin-top: 30px;
+			
 		}
-		.listAlign:hover{
+		.listAlign a:hover{
 			color:green;
 		}
 		
@@ -76,10 +87,19 @@
 			border-width: 5px;
 		}
 		#idContent{
-			text-align: center;
 			position: relative;
-			right:30px;
-		
+			left:42%;
+			margin-top: 40px;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 35px;
+		}
+		#list1_1{
+			position: relative;
+			left: 0%;
+		}
+		#list2Header{
+			position: relative;
+			left:38%;
 		}
 		</style>
 	
@@ -93,22 +113,27 @@
 	</div>
 	
 	<div id="main">
-		<br> <br>
+		<br> <br><br>
 		<h2 id="idContent">Content</h2>
+		<!--delete under-->
+		
 	
-		<ul class = "listAlign">
-			<li> <a href="#listOfChars">List of characters in the show</a> </li>
-			<li> <a href="#imagesOfChars">Images of characters in the show</a> </li>
-		</ul>
+		<ol class = "listAlign">
+			<li> <a id="list1_1" href="#listOfChars">List of characters in the show</a> </li>
+			<li> <a id ="list1.2" href="#imagesOfChars">Images of characters in the show</a> </li>
+		</ol>
 
-		<br>
-		<h2 class="listAlign" id="listOfChars">List of characters in the show: </h2>
+		<br><br><br><br>
+		<h2 id="list2Header" id="listOfChars">List of characters in the show: </h2>
+		<!--delete under-->
+		<br> <br> <br>
 		
 		<ul class="listAlign"> 
 			<h3> <li> Walter White (Heisenberg) </li> <h3>
 		</ul>
 
-		
+		<!--delete under-->
+		<br> <br> <br>
 
 		
 		<br>
