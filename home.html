@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	
 	<head>
 		<meta charset = "utf-8">
@@ -45,9 +45,11 @@
 				color:black;
 				font-weight: bold;
 				text-align: center;
+				position: relative;
+				right:1.8%;
 			}
 			.navBar{
-				position:fixed
+				position:fixed;
 				display:block;
 				text-align: center;
 				background-color: burlywood;
@@ -87,7 +89,7 @@
 			}
 			#idContent{
 				position: relative;
-				left:42%;
+				left:42.5%;
 				margin-top: 40px;
 				font-family: Arial, Helvetica, sans-serif;
 				font-size: 35px;
@@ -105,6 +107,32 @@
 			#list2Header{
 				position: relative;
 				left:38%;
+				font-size: 35px;
+				left:33.5%;
+			}
+			.list2_1{
+				position: relative;
+				left:2%;
+				font-size: 20px;
+			}
+			#walterWhitePic{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 480px;
+				height: 320px;
+				position: relative;
+				right:20px;
+			}
+			#imagesOfChars{
+				position: relative;
+				right:20px;
+				font-size: 35px;
+			}
+			#walterWhiteDescription{
+				position: relative;
+				left:45%;
+				font-size: 18px;
 			}
 		</style>
 	
@@ -121,41 +149,48 @@
 			<br> <br><br>
 			<h2 id="idContent">Content</h2>
 			<!--delete under-->
-			
-		
+			<br>
 			<ol class = "listAlign">
-				<li id="list1_1"> <a href="#listOfChars">List of characters in the show</a> </li>
+				<li id="list1_1"> <a href="#list1_1">List of characters in the show</a> </li>
 				<li id ="list1_2"> <a href="#imagesOfChars">Images of characters in the show</a> </li>
 			</ol>
 
-			<br><br><br><br>
-			<h2 id="list2Header" id="listOfChars">List of characters in the show: </h2>
+			<br><br>
+			<h2 id="list2Header">List of characters in the show</h2>
 			<!--delete under-->
-			<br> <br> <br>
+			
 			
 			<ul class="listAlign"> 
-				<h3> <li> Walter White (Heisenberg) </li> <h3>
+				<li class="list2_1">Walter White (Heisenberg) </li> 
+				<li class="list2_1">Skyler White (wife) </li>
+				<li class="list2_1">Jesse Pinkman</li>
+				<li class="list2_1">Marie Schrader</li>
+				<li class="list2_1">Walter White, Jr.</li>
+				<li class="list2_1">Hank Schrader</li> 
+				<li class="list2_1">Saul Goodman</li> 
+				<li class="list2_1">Steven Gomez</li> 
+				<li class="list2_1">Mike Ehrmantraut</li>
+				<li class="list2_1">Gustavo 'Gus' Fring</li>
 			</ul>
 
 			<!--delete under-->
 			<br> <br> <br>
 
 			
-			<br>
-			<h2 class="centering" id="imagesOfChars">Images of show's characters: </h2> <br>
+			
+			<h2 class="centering" id="imagesOfChars">Images of show's characters</h2> <br>
 			
 			<a href="https://www.imdb.com/name/nm0186505/?ref_=tt_ov_st_sm" target="blank">
-			<center> <img src= "breaking-bad-main.jpg" height = "320" width = "480" alt = "Walter White" > </center>
+			<img id="walterWhitePic" src= "breaking-bad-main.jpg" height = "320" width = "480" alt = "Walter White" >
 			</a>
 
-			<center> <p> <strong> <em> Walter White </em> </strong> </p> </center>
-		
+			<span id="walterWhiteDescription">Walter White</span>
+			<br><br><br>
 		</div>
 
+		<footer>
+			<a class = "IMDBLink" href="https://www.imdb.com/title/tt0903747/?ref_=tt_urv" target="_blank" >Link to the IMDB</a>
+		</footer>
 	</body>
-
-	<footer>
-		<a class = "IMDBLink" href="https://www.imdb.com/title/tt0903747/?ref_=tt_urv" target="_blank" >Link to the IMDB</a>
-	</footer>
 
 </html>
