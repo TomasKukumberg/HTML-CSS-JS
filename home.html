@@ -35,8 +35,47 @@
 	}
 	.IMDBLink{
 		display:block;
-		color:violet;
+		color:black;
+		font-weight: bold;
 		text-align: center;
+	}
+	.navBar{
+		position:fixed
+		display:block;
+		text-align: center;
+		background-color: burlywood;
+		color:rgb(51, 51, 255);
+		height: 50px;
+		
+	}
+	.main {
+  		padding: 16px;
+  		margin-top: 30px;
+  		height: 1500px; /* Used in this example to enable scrolling */
+	}
+	.navBar {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	left:0; /*Position the navbar from the left */
+	width: 100%; /* Full width */
+	}
+	#mainTitle{
+		font-size:48px;
+		position:relative;
+		top:-4px;
+		
+	}
+	#homeButton{
+		font-size:24px;	
+		position: relative;
+		right:800px;
+		bottom:10px;
+		border-color: rgb(64 128 128);
+		padding:8px;
+		border-style: solid;
+  		border-width: 5px;
 	}
 	</style>
 	
@@ -44,7 +83,12 @@
 	
 	<body>
 	
-	<center> <h1>Breaking Bad</h1> </center>
+	<div class="navBar">
+		<span id="mainTitle">Breaking Bad</span>
+		<span id = "homeButton">Home</span>
+	</div>
+	
+	<div id="main">
 	
 	<center> <h2> <strong> Content</strong></stromg></h2> </center>
 	
@@ -72,12 +116,13 @@
 
 	<center> <p> <strong> <em> Walter White </em> </strong> </p> </center>
 	
-	<a class = "IMDBLink" href="https://www.imdb.com/title/tt0903747/?ref_=tt_urv" target="_blank" >Link to the IMDB</a>
+	
+	</div>
 
 	</body>
 
 	<footer>
-
+		<a class = "IMDBLink" href="https://www.imdb.com/title/tt0903747/?ref_=tt_urv" target="_blank" >Link to the IMDB</a>
 	</footer>
 
 </html>
