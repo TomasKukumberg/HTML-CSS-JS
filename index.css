@@ -37,6 +37,7 @@ h2:hover{
 
 h2.centering{
 	text-align:center;
+	padding-top: 90px; /* padding from the navbar so it doesn't overlap when clicked on a a href link*/
 }
 .IMDB-link{
 	display:block;
