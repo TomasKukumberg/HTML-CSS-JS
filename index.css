@@ -81,10 +81,16 @@ display:block;
 	margin-left: auto;
 	margin-right: auto;
 	
-	display:inline-block;*/
-	color:rgb(255, 92, 51);
+	display:inline-block;
+	
 	width: 80%;
     margin: 0 auto;
+	*/
+	color:rgb(255, 92, 51);
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	
 }
 #navButton{
 	border-color: rgb(64 128 128);
