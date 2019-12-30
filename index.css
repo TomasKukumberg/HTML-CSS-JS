@@ -19,7 +19,7 @@ h1:hover{
 h2:hover{
 	color:violet;
 }
-.listAlign{
+.list-align{
 	list-style-position: inside;
 	font-size: 20px;
 	font-weight: bolder;
@@ -31,14 +31,14 @@ h2:hover{
 	left:2%;
 	font-size: 20px;
 }
-.listAlign a:hover{
+.list-align a:hover{
 	color:green;
 }
 
 h2.centering{
 	text-align:center;
 }
-.IMDBLink{
+.IMDB-link{
 	display:block;
 	font-weight: bold;
 	text-align: center;
@@ -62,7 +62,7 @@ z-index: 1;
 /*text-align: center;*/
 display:block;
 }
-#mainTitle{
+#main-title{
 	font-size:48px;
 	/*
 	position:relative;
@@ -82,7 +82,7 @@ display:block;
   	align-items: center;
 	
 }
-.navButton{
+.nav-button{
 	border-color: rgb(64 128 128);
 	border-style: solid;
 	border-width: 5px;
@@ -90,13 +90,13 @@ display:block;
 	margin:20px;
 	color:yellow;	
 }
-#buttonContainer{
+#button-container{
 	
 	position:absolute;
 	left:10px;
 	top:15px;
 }
-#idContent{
+#id-content{
 	position: relative;
 	/*left:42.5%;
 	margin-top: 40px;*/
@@ -114,35 +114,38 @@ display:block;
 	left: 0%;
 	margin:20px;
 }
-#list2Header{
+#list2-header{
 	position: relative;
 	font-size: 35px;
 	/*left:38%;
 	left:33.5%;*/
 	text-align: center;
 }
-#walterWhitePic{
+#Walter-White-pic{
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	/*margin-left: auto;
+	margin-right: auto;*/
 	width: 480px;
 	height: 320px;
 	/*position: relative;
 	right:25px;*/
 	margin:auto;
 }
-#imagesOfChars{
+#images-characters{
 	position: relative;
 	right:25px;
 	font-size: 35px;
 }
-#walterWhiteDescription{
+#Walter-White-description{
 	position: relative;
 	left:45%;
 	font-size: 18px;
 }
-#videoTrailer{
+#video-trailer{
 	width:600px;
 	margin: 0 auto;
     display: block;
+}
+.img-container{
+	text-align:center;
 }
