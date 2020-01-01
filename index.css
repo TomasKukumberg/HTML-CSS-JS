@@ -1,152 +1,126 @@
-body{
-	background: url(background.jpg) no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-	color:yellow;
+body {
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: yellow;
 }
-a {
-	text-decoration: none;
-	font-weight: bolder;
+ul,ol {
+  list-style-position: inside;
 }
-h1{
-	color: rgb(250, 102, 102);
+h1 {
+  color: rgb(250, 102, 102);
 }
-h1:hover{
-	color:yellow;
+h1:hover {
+  color: yellow;
 }
-h2:hover{
-	color:violet;
+h2:hover {
+  color: violet;
 }
-.list-align{
-	list-style-position: inside;
-	font-size: 20px;
-	font-weight: bolder;
-	position:relative;
-	text-align: center;	
+.list-align {
+  list-style-position: inside;
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  text-align: center;
 }
-.list2_1{
-	position: relative;
-	left:2%;
-	font-size: 20px;
+.list-align a:hover {
+  color: green;
 }
-.list-align a:hover{
-	color:green;
+.images-title {
+  text-align: center;
+  padding-top: 60px; /* padding from the navbar so it doesn't overlap when clicked on a a href link*/
 }
-
-h2.centering{
-	text-align:center;
-	padding-top: 90px; /* padding from the navbar so it doesn't overlap when clicked on a a href link*/
-}
-.IMDB-link{
-	display:block;
-	font-weight: bold;
-	text-align: center;
-	position: relative;
-	right:1.8%;
+.footer-centering {
+  text-align:center;
 }
 .main {
-	padding: 16px;
-	margin-top: 30px;
-	height: 1500px; /* Used in this example to enable scrolling */
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
 }
 .nav-bar {
-overflow: hidden;
-background-color: #333;
-position: fixed; /* Set the navbar to fixed position */
-top: 0; /* Position the navbar at the top of the page */
-left:0; /*Position the navbar from the left */
-width: 100%; /* Full width */
-height: 60px;
-z-index: 1;
-/*text-align: center;*/
-display:block;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0; /*Position the navbar from the left */
+  width: 100%; /* Full width */
+  height: 60px;
+  z-index: 1;
+  display: block;
 }
-#main-title{
-	font-size:48px;
-	/*
-	position:relative;
-	top:-4px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	
-	display:inline-block;
-	
-	width: 80%;
-    margin: 0 auto;
-	*/
-	color:rgb(255, 92, 51);
-	display: flex;
-  	justify-content: center;
-  	align-items: center;
-	
+#main-title {
+  font-size: 48px;
+  color: rgb(255, 92, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.nav-button{
-	border-color: rgb(64 128 128);
-	border-style: solid;
-	border-width: 5px;
-	font-size:24px;	
-	margin:20px;
-	color:yellow;	
+.nav-button {
+  border-color: rgb(64 128 128);
+  border-style: solid;
+  border-width: 5px;
+  font-size: 24px;
+  margin: 20px;
+  color: yellow;
 }
-#button-container{
-	
-	position:absolute;
-	left:10px;
-	top:15px;
+#button-container {
+  position: absolute;
+  left: 10px;
+  top: 15px;
 }
-#id-content{
-	position: relative;
-	/*left:42.5%;
-	margin-top: 40px;*/
-	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 35px;
+#id-content {
+  position: relative;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color:rgb(255, 255, 128);
 }
-#list1_1{
-	position: relative;
-	left: 0%;
-	margin:20px;
+#characters-header{
+  font-size: 35px;
+  text-align: center;
+  color:rgb(255, 255, 128);
+  padding-top: 70px; /* padding from the navbar so it doesn't overlap when clicked on a a href link*/
 }
-#list1_2{
-	position: relative;
-	left: 0%;
-	margin:20px;
+#Walter-White-pic {
+  display: block;
+  width: 480px;
+  height: 320px;
+  margin: auto;
 }
-#list2-header{
-	position: relative;
-	font-size: 35px;
-	/*left:38%;
-	left:33.5%;*/
-	text-align: center;
+#images-characters {
+  text-align:center;
+  font-size: 35px;
+  color:rgb(255, 255, 128);
+  padding-top:60px;
 }
-#Walter-White-pic{
-	display: block;
-	/*margin-left: auto;
-	margin-right: auto;*/
-	width: 480px;
-	height: 320px;
-	/*position: relative;
-	right:25px;*/
-	margin:auto;
+#Walter-White-description {
+  position: relative;
+  left: 45%;
+  font-size: 18px;
 }
-#images-characters{
-	position: relative;
-	right:25px;
-	font-size: 35px;
+#video-trailer {
+  width: 600px;
+  margin: 0 auto;
+  display: block;
 }
-#Walter-White-description{
-	position: relative;
-	left:45%;
-	font-size: 18px;
+.img-container {
+  text-align: center;
 }
-#video-trailer{
-	width:600px;
-	margin: 0 auto;
-    display: block;
+.list-wrapper{
+  width:300px;
+  margin:50px auto;
+  text-align:left;
+  font-size: 20px;
 }
-.img-container{
-	text-align:center;
+.content-wrapper{
+  width:350px;
+  margin:50px auto;
+  text-align:left;
+  font-size:20px; 
+}
+.content-wrapper ol li a{
+  color:yellow;
 }
