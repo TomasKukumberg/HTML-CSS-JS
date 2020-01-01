@@ -1,80 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-	<head>
-		<meta charset = "utf-8">
-		<title>Walter White's fanpage</title>
-		<link rel="stylesheet" type="text/css" href="index.css" >
-		<link rel="icon" href="logo2.jpg">
-	</head>
-	
-	<body>
-		<div class="nav-bar">
-			<!--<span id="mainTitle">Breaking Bad</span>
-			<span id = "homeButton">Home</span>
-			<span id = "homeButton">test</span>-->
-			<a id="main-title" href="#main-title">Breaking Bad</a>
+  <head>
+    <meta charset="utf-8" />
+    <title>Walter White's fanpage</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" href="logo2.jpg" />
+  </head>
 
-			<span id="button-container">
-				<a class="nav-button">Home</a>
-				<a class="nav-button">Test</a>
-			</span>
-		</div>
-		
-		<div id="main">
-			<br> <br><br>
-			<h2 id="id-content">Content</h2>
-			
-			<br> <!--delete under-->
-			
-			<ol class = "list-align">
-				<li id="list1_1"> <a href="#list1_1">List of characters in the show</a> </li>
-				<li id ="list1_2"> <a href="#images-characters">Images of characters in the show</a> </li>
-			</ol>
+  <body>
+    <div class="nav-bar">
+      <a id="main-title" href="#main-title">Breaking Bad</a>
 
-			<br><br>
-			<h2 id="list2-header">List of characters in the show</h2>
-			
-			<ul class="list-align"> 
-				<li> <a class="list2_1">Walter White (Heisenberg) </a> </li>
-				<li> <a class="list2_1">Skyler White (wife) </a> </li>
-				<li> <a class="list2_1">Jesse Pinkman</a> </li>
-				<li> <a class="list2_1">Marie Schrader</a> </li>
-				<li> <a class="list2_1">Walter White, Jr.</a> </li>
-				<li> <a class="list2_1">Hank Schrader</a> </li> 
-				<li> <a class="list2_1">Saul Goodman</a> </li>
-				<li> <a class="list2_1">Steven Gomez</a> </li>
-				<li> <a class="list2_1">Mike Ehrmantraut</a> </li>
-				<li> <a class="list2_1">Gustavo 'Gus' Fring</a> </li>
-			</ul>
+      <span id="button-container">
+        <a class="nav-button">Home</a>
+        <a class="nav-button">Test</a>
+      </span>
+    </div>
 
-			<br> <br> <br><br> <br> <!--delete under-->
+    <div id="main">
+      <br/>
+      <br/><br/>
+      <h2 id="id-content" class="title-color">Content</h2>
 
-			<h2 class="centering" id="images-characters">Images of show's characters</h2> <br>
-			
-			<div id="Walter-White-pic">
-			<a href="https://www.imdb.com/name/nm0186505/?ref_=tt_ov_st_sm" target="blank">
-			<img src= "breaking-bad-main.jpg" height = "320" width = "480" alt = "Walter White" >
-			</a>
-			</div>
+      <br/>
 
-			<span id="Walter-White-description">Walter White</span>
-			<br><br><br> <!--delete under-->
+      <div class="content-wrapper">
+        <ol>
+          <li>
+            <a href="#characters-header">List of characters in the show</a>
+          </li>
+          <li>
+            <a href="#images-characters">Images of characters in the show</a>
+          </li>
+        </ol>
+      </div>
 
-		</div>
+      <br>
+      
+      <h2 id="characters-header">List of characters in the show</h2>
+      
+      <div class="list-wrapper">
+       
+        <ul>
+          <li><a class="list2_1">Walter White (Heisenberg) </a></li>
+          <li><a class="list2_1">Skyler White (wife) </a></li>
+          <li><a class="list2_1">Jesse Pinkman</a></li>
+          <li><a class="list2_1">Marie Schrader</a></li>
+          <li><a class="list2_1">Walter White, Jr.</a></li>
+          <li><a class="list2_1">Hank Schrader</a></li>
+          <li><a class="list2_1">Saul Goodman</a></li>
+          <li><a class="list2_1">Steven Gomez</a></li>
+          <li><a class="list2_1">Mike Ehrmantraut</a></li>
+          <li><a class="list2_1">Gustavo 'Gus' Fring</a></li>
+        </ul>
+      </div>
 
-		<br> <br>
+      <h2 id="images-characters">
+        Images of show's characters
+      </h2>
+      
+      <br />
 
-		<video id ="video-trailer" controls>
-			<source src="trailer.mp4" type="video/mp4">
-			Your browser does not support HTML5 video.
-		</video>
-		<br><br><br>
-		
-		<footer>
-			<a class = "IMDB-link" href="https://www.imdb.com/title/tt0903747/?ref_=tt_urv" target="_blank" >Link to the IMDB</a>
-		</footer>
-	
-	</body>
+      <div id="Walter-White-pic">
+        <a href="https://www.imdb.com/name/nm0186505/?ref_=tt_ov_st_sm" target="blank">
+          <img src="breaking-bad-main.jpg" height="320" width="480" alt="Walter White" />
+        </a>
+      </div>
 
+      <span id="Walter-White-description">Walter White</span>
+      <br/><br/><br/>
+    </div>
+
+    <br>
+    <br>
+
+    <video id="video-trailer" controls>
+      <source src="trailer.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <br><br<br>
+
+    <footer class="footer-centering">
+      <a href="https://www.imdb.com/title/tt0903747/?ref_=tt_urv" target="_blank">Link to the IMDB</a>
+    </footer>
+  </body>
 </html>
