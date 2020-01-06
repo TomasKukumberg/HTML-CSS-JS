@@ -6,14 +6,8 @@ body {
   background-size: cover;
   color: yellow;
 }
-ul,ol {
+ul ,ol {
   list-style-position: inside;
-}
-h1 {
-  color: rgb(250, 102, 102);
-}
-h1:hover {
-  color: yellow;
 }
 h2:hover {
   color: violet;
@@ -78,28 +72,20 @@ h2:hover {
   font-size: 35px;
   color:rgb(255, 255, 128);
 }
-#characters-header{
+.header{
   font-size: 35px;
   text-align: center;
   color:rgb(255, 255, 128);
   padding-top: 70px; /* padding from the navbar so it doesn't overlap when clicked on a a href link*/
 }
-#Walter-White-pic {
-  display: block;
-  width: 480px;
-  height: 320px;
-  margin: auto;
+.character-image {
+  text-align:center;
 }
 #images-characters {
   text-align:center;
   font-size: 35px;
   color:rgb(255, 255, 128);
   padding-top:60px;
-}
-#Walter-White-description {
-  position: relative;
-  left: 45%;
-  font-size: 18px;
 }
 #video-trailer {
   width: 600px;
@@ -118,9 +104,16 @@ h2:hover {
 .content-wrapper{
   width:350px;
   margin:50px auto;
-  text-align:left;
-  font-size:20px; 
+  text-align:center;
+  font-size:20px;
+  border: 5px dotted #ccc;
+  border-radius:12px;
+  box-sizing: border-box;
 }
-.content-wrapper ol li a{
+.content-wrapper li a{
+  text-decoration: none;
   color:yellow;
+}
+.image-description{
+  font-size:20px;
 }
